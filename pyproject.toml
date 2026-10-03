@@ -1,0 +1,16 @@
+[project]
+name = "small-rnd"
+version = "0.1.0"
+description = "Research and development workspace for high-memory & high-disk quantitative simulations and prototypes"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26.0",
+    "pandas>=2.0.0",
+    "polars>=0.20.0",
+    "duckdb>=0.10.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
